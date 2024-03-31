@@ -8,6 +8,9 @@
 [node name="Sprite" parent="." instance=ExtResource( 1 )]
 script = ExtResource( 2 )
 
+[node name="Timer" type="Timer" parent="Sprite"]
+autostart = true
+
 [node name="Button" type="Button" parent="."]
 margin_left = 28.0
 margin_top = 26.0
